@@ -1,0 +1,38 @@
+.cartSh .avatar-lg {
+    height: 5rem;
+    width: 5rem;
+}
+
+.cartSh h1 {
+    font-weight: 500;
+    color: black;
+    font-family: serif;
+}
+
+.cartSh .text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.cartSh a {
+    text-decoration: none!important;
+}
+
+.bb{
+    color: white!important;
+}
+
+.cartSh .w-xl {
+    min-width: 160px;
+}
+
+.removeBtn{
+    background-color: white!important;
+    color: black!important;
+}
+
+.removeBtn:hover {
+    background-color: #f8f9fa!important;
+    color: rgb(247, 69, 69)!important;
+}

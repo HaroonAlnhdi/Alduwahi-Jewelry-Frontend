@@ -1,0 +1,53 @@
+.favsection .card {
+    margin-bottom: 24px;
+    -webkit-box-shadow: 0 2px 3px white;
+    box-shadow: 0 2px 3px white;
+}
+
+.favsection .card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #eff0f2;
+    border-radius: 1rem;
+}
+
+.favsection .text-muted {
+    --bs-text-opacity: 1;
+    color: #7f838b!important;
+}
+
+.favsection .font-size-20 {
+    font-size: 20px!important;
+}
+
+.favsection .font-size-15 {
+    font-size: 15px!important;
+}
+
+.table-striped {
+    background-color: white !important;
+}
+
+
+.ll{
+    background-color: white !important;
+}
+
+.titels{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

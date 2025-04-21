@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+.logo {
+
+    transform: scale3d(1, 1.5, 1.5);
+    height: 38px;
+    width: 50px;
+}
+.brandName{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    color: #D09A40;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.font{
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.nav-link{
+    margin-right: -500px !important;
+    color: hsl(var(--primary)) !important; 
+    padding: 0.5rem 1.5rem !important;
+    border-radius: 0.25rem !important; 
+    margin: 5px !important;
+    font-weight: 500 !important; 
+}
+
+.nav-link:hover{
+
+    /* background-color: #db9662 !important;  */
+    color: #D09A40 !important; 
+}
+.ms-auto a.nav-link{
+    margin-right: -500px !important;
+    /* background-color: #db9662 !important;  */
+    color: #db9662 !important; 
+    padding: 0.5rem 1.5rem !important;
+    border-radius: 0.25rem !important; 
+    margin: 5px !important;
+    font-weight: 500 !important; 
+}
+
+.ms-auto a.nav-link:hover {
+    transition: background 0.5s, color 0.5s;
+    background-color: #D09A40 !important; 
+    color: #FFFFFF !important;
+}
+
+
+a.dropdown-item{
+    color: black !important; 
+    background-color: white !important; 
+    font-weight: 500 !important; 
+}
+
+a.dropdown-item:hover{
+    color: #D09A40 !important; 
+
+}
+
+.lang-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+
+  
+  .lang-circle {
+    background-color: #D09A40;
+    color: white;
+    border-radius: 50%;
+    /* width: 32px; */
+    padding: 4px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .lang-circle:hover {
+    background-color: #db9662;
+    color: white;
+    padding: 5px;
+  }
+
+  
+
+
+
+@media (min-width: 995px) and ( max-width: 1200px) {
+    .ms-auto a.nav-link{
+        font-size: 11px;
+    }
+}

@@ -1,0 +1,36 @@
+.homeSection{
+    height: 100%;
+    width: 100%;    
+    /* margin-bottom: 20px; */
+}
+
+.panner{
+    width: 100vw !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+/* .c-item {
+    height: 480px;
+  } */
+  
+  .c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+  }
+
+.carousel-inner {
+
+    height: 600px;
+}
+
+.tit {
+    font-family: fantasy ;
+}
+
+.welcome-user{
+    font-family: fantasy;
+    font-size: 16px;
+    text-align: center;
+}

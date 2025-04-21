@@ -1,0 +1,25 @@
+{
+  "collections": "Collections",
+  "viewAllProducts": "View All Products",
+  "flashSales": "Flash Sales",
+  "whatCustomersSay": "What Customers Say",
+  "features": "Why Choose Us?",
+  "quality": "High Quality",
+  "variety": "Great Variety",
+  "customerService": "Excellent Support",
+  "contactUs": "Contact Us",
+  "email": "Email",
+  "phone": "Phone",
+  "address": "Address",
+  "home": "Home",
+
+  "about": "About",
+  "contact": "Contact Us",
+  "cart": "Cart",
+  "favorites": "Favorites",
+  "profile": "My Profile",
+  "orders": "My Orders",
+  "signOut": "Sign Out",
+  "signIn": "Sign In",
+  "signUp": "Sign Up"
+}

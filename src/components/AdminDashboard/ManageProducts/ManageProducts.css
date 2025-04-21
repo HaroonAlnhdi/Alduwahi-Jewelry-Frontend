@@ -1,0 +1,61 @@
+/* ManageProducts.css */
+
+.manage-products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.manage-products h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.manage-products table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.manage-products th {
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.manage-products td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.manage-products tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.manage-products tr:hover {
+  background-color: #f2f2f2;
+}
+
+.manage-products .product-status {
+  display: flex;
+  align-items: center;
+}
+
+.manage-products .product-status span {
+  margin-right: 10px;
+}
+
+.manage-products .product-status button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.manage-products .product-status button:hover {
+  background-color: #45a049;
+}
+
